@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 # Load the scaler and model
-scaler = pickle.load(open("Model/standardScalar.pkl", "rb"))
-model = pickle.load(open("Model/modelForPrediction.pkl", "rb"))
+scaler = pickle.load(open("standardScalar.pkl", "rb"))
+model = pickle.load(open("modelForPrediction.pkl", "rb"))
 
 # Streamlit app title
 st.title("Diabetes Prediction")
