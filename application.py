@@ -8,7 +8,7 @@ scaler = pickle.load(open("standardScalar.pkl", "rb"))
 model = pickle.load(open("modelForPrediction.pkl", "rb"))
 
 # Streamlit app title
-st.title("Diabetes Prediction")
+st.title("Early Detection Model for Diabetes")
 
 # User input form
 st.header("Enter Patient Details")
